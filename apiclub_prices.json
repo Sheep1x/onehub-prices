@@ -23,8 +23,8 @@
   "model": "MiniMax-M3",
   "type": "tokens",
   "channel_type": 27,
-  "input": 2.1,
-  "output": 8.4,
+  "input": 1.05,
+  "output": 4.2,
   "extra_ratios": {
    "cached_read_tokens": 0.2
   }
@@ -241,10 +241,13 @@
  },
  {
   "model": "gemini-3-pro-image-preview",
+  "type": "tokens",
   "channel_type": 25,
-  "type": "times",
-  "input": 600.0,
-  "output": 600.0
+  "input": 1.0,
+  "output": 6.0,
+  "extra_ratios": {
+   "cached_read_tokens": 0.0
+  }
  },
  {
   "model": "gemini-3-pro-preview",
@@ -258,10 +261,13 @@
  },
  {
   "model": "gemini-3.1-flash-image-preview",
+  "type": "tokens",
   "channel_type": 25,
-  "type": "times",
-  "input": 500.0,
-  "output": 500.0
+  "input": 0.25,
+  "output": 1.5,
+  "extra_ratios": {
+   "cached_read_tokens": 0.0
+  }
  },
  {
   "model": "gemini-3.1-flash-lite",
@@ -408,7 +414,10 @@
   "type": "tokens",
   "channel_type": 1,
   "input": 0.875,
-  "output": 7.0
+  "output": 7.0,
+  "extra_ratios": {
+   "cached_read_tokens": 0.0
+  }
  },
  {
   "model": "gpt-5.3-codex-openai-compact",
@@ -464,8 +473,8 @@
   "model": "gpt-5.5",
   "type": "tokens",
   "channel_type": 1,
-  "input": 5.0,
-  "output": 22.5,
+  "input": 2.5,
+  "output": 15.0,
   "extra_ratios": {
    "cached_read_tokens": 0.1
   }
@@ -484,10 +493,10 @@
   "model": "gpt-5.6-luna",
   "type": "tokens",
   "channel_type": 1,
-  "input": 0.5,
-  "output": 3.0,
+  "input": 0.1,
+  "output": 0.6,
   "extra_ratios": {
-   "cached_read_tokens": 0.1
+   "cached_read_tokens": 0.5
   }
  },
  {
@@ -542,24 +551,33 @@
  },
  {
   "model": "gpt-image-2",
+  "type": "tokens",
   "channel_type": 1,
-  "type": "times",
-  "input": 500.0,
-  "output": 500.0
+  "input": 2.5,
+  "output": 5.0,
+  "extra_ratios": {
+   "cached_read_tokens": 0.25
+  }
  },
  {
   "model": "gpt-image-2.5-flare",
+  "type": "tokens",
   "channel_type": 1,
-  "type": "times",
-  "input": 900.0,
-  "output": 900.0
+  "input": 2.5,
+  "output": 5.0,
+  "extra_ratios": {
+   "cached_read_tokens": 0.25
+  }
  },
  {
   "model": "gpt-image-2.5-sunburst",
+  "type": "tokens",
   "channel_type": 1,
-  "type": "times",
-  "input": 900.0,
-  "output": 900.0
+  "input": 2.5,
+  "output": 5.0,
+  "extra_ratios": {
+   "cached_read_tokens": 0.25
+  }
  },
  {
   "model": "grok-4.20-0309-console",
@@ -803,31 +821,35 @@
  },
  {
   "model": "grok-imagine",
-  "channel_type": 56,
   "type": "times",
+  "channel_type": 56,
   "input": 250.0,
-  "output": 250.0
+  "output": 250.0,
+  "extra_ratios": null
  },
  {
   "model": "grok-imagine-image-2.0",
-  "channel_type": 56,
   "type": "times",
+  "channel_type": 56,
   "input": 250.0,
-  "output": 250.0
+  "output": 250.0,
+  "extra_ratios": null
  },
  {
   "model": "grok-imagine-image-pro",
-  "channel_type": 56,
   "type": "times",
+  "channel_type": 56,
   "input": 250.0,
-  "output": 250.0
+  "output": 250.0,
+  "extra_ratios": null
  },
  {
   "model": "grok-imagine-image-quality",
-  "channel_type": 56,
   "type": "times",
+  "channel_type": 56,
   "input": 250.0,
-  "output": 250.0
+  "output": 250.0,
+  "extra_ratios": null
  },
  {
   "model": "hy3",
